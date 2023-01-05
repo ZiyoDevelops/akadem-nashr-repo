@@ -1,3 +1,6 @@
+header ul{
+    list-style-type: none;
+}
 .site-header{
     border-top: 5px solid #ff7500;
 }
@@ -51,6 +54,9 @@
 .features{
     padding-bottom: 15px;
 }
+.features ul{
+    list-style: none;
+}
 .f-l-item{
     padding-bottom: 45px;
 }
@@ -103,7 +109,16 @@
     background-color: #f8f8f8;
 }
 
+.site-footer ul{
+    list-style: none;
+}
+
 .site-footer-divider{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-links a{
+    text-decoration: none;
+
 }
