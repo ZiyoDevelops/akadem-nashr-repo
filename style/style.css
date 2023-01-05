@@ -3,6 +3,15 @@ header{
 }
 
 .hero{
-    background-color:black;
+    background-color: #252420;
+    color: white;
+}
+
+button{
+    background-color: #ff7500;
+    color: white;
+}
+.sale{
+    background-color: #252420;
     color: white;
 }
