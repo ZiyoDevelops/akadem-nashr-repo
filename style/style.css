@@ -118,7 +118,12 @@ header ul{
     background-color: rgba(37, 36, 32, 0.5);
 }
 
+.site-footer-links{
+    width: 224px;
+}
 .site-footer-links a{
+    font-size: 16px;
+    line-height: 19px;
     text-decoration: none;
-
+    color:#252420
 }
