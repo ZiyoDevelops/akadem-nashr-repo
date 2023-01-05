@@ -1,8 +1,15 @@
 header{
     border-top: 5px solid #ff7500;
 }
-a{
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     text-decoration: none;
+    color: #000000;
 }
 
 .hero{
