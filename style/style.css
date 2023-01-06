@@ -8,6 +8,14 @@ h2, h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.main-logo :hover{
+    opacity: 0.8;
+}
+.main-logo :active{
+    opacity: 0.6;
 }
 .site-header-actions{
     display: flex;
@@ -22,6 +30,13 @@ header ul{
     display: flex;
     list-style: none;
 }
+.site-nav-list :hover{
+    color: #ff7500;
+}
+.site-nav-list :active{
+    opacity: 0.6;
+}
+
 .sitenav-link{
     font-weight: 500;
     font-size: 13px;
@@ -39,14 +54,20 @@ header ul{
     color: white;
     text-decoration: none;
 }
-
+.main-link:hover{
+    opacity: 0.8;
+}
+.main-link:active{
+    background: rgba(255, 117, 0, 1);
+    opacity: 0.6;
+}
 .hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #252420;
     color: white;
-    
+
 }
 
 .orange-line{
@@ -92,7 +113,7 @@ header ul{
     height: 72px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;    
+    line-height: 150%;
     letter-spacing: 0.6px;
     color: #000000;
 }
@@ -139,6 +160,18 @@ header ul{
 .site-footer-socials{
     display: flex;
     justify-content: space-around;
+    color:#252420;
+}
+.socials{
+    color: #252420;
+}
+.socials :hover{
+    border-radius: 40%;
+    background: rgba(255, 117, 0.1);
+}
+.socials :active{
+    opacity: 0.6;
+    background: rgba(255, 117, 0.1);
 }
 .site-footer-divider{
     height: 2px;
@@ -150,8 +183,14 @@ header ul{
 }
 
 .site-footer-links{
-    
     width: 224px;
+}
+.site-footer-links :hover{
+    color: #ff7500;
+}
+
+.site-footer-links :active{
+    opacity: 0.6;
 }
 .site-footer-links a{
     font-size: 16px;
