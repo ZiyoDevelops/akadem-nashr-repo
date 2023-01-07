@@ -9,11 +9,13 @@ h2{
     outline: 3px dotted #ff7500;
     outline-offset: 3px;
 }
-.header{
+.site-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    border-top: 5px solid #ff7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .main-logo :hover{
@@ -28,10 +30,8 @@ h2{
 header ul{
     list-style-type: none;
 }
-.site-header{
-    border-top: 5px solid #ff7500;
-}
 .site-nav-list{
+    padding: none;
     display: flex;
     list-style: none;
 }
@@ -53,8 +53,13 @@ header ul{
 }
 
 .main-link{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
     font-size: 13px;
     line-height: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
     background-color: #ff7500;
     color: white;
     text-decoration: none;
@@ -70,6 +75,8 @@ header ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #252420;
     color: white;
 
@@ -79,12 +86,16 @@ header ul{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
+    border: none;
 }
 
 .hero-heading{
     font-weight: bold;
     font-style:normal;
     line-height: 1.2px;
+}
+.hero-content{
+    width: 390px;
 }
 .hero-text{
     font-size: 16px;
@@ -94,6 +105,12 @@ header ul{
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius:8px;
+}
+
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 .features ul{
     display: flex;
@@ -105,6 +122,10 @@ header ul{
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
+}
+
+.features-list{
+    padding: 0;
 }
 .features-title{
     width: 215px;
@@ -123,6 +144,7 @@ header ul{
     color: #000000;
 }
 .sale{
+    border-radius: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,12 +166,16 @@ header ul{
 }
 
 .sale-img{
+
     width: 440px;
     height: 440px;
+    border-radius: 12px;
     object-fit: cover;
 }
 
 .site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
 }
 
@@ -160,9 +186,11 @@ header ul{
 }
 .site-footer ul{
     list-style: none;
+    padding: 0;
 }
 
 .site-footer-socials{
+    padding: o;
     display: flex;
     justify-content: space-around;
     color:#252420;
@@ -179,6 +207,7 @@ header ul{
 }
 
 .site-footer-divider{
+    border: 0;
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
