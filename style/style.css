@@ -1,8 +1,13 @@
 body{
     font-family: "roboto", arial, sans-serif;
 }
-h2, h3{
+
+h2{
     font-family: "Roboto condensed", arial, sans-serif;
+}
+*:focus{
+    outline: 3px dotted #ff7500;
+    outline-offset: 3px;
 }
 .header{
     display: flex;
@@ -162,17 +167,17 @@ header ul{
     justify-content: space-around;
     color:#252420;
 }
-.socials{
-    color: #252420;
+.site-footer-socials a{
+    color:#252420;
 }
-.socials :hover{
-    border-radius: 40%;
-    background: rgba(255, 117, 0.1);
+.site-footer-socials a:hover{
+    background: #ff7500;
+    color:#ff7500;
 }
-.socials :active{
+.site-footer-socials a:active{
     opacity: 0.6;
-    background: rgba(255, 117, 0.1);
 }
+
 .site-footer-divider{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
