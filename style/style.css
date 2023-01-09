@@ -1,9 +1,9 @@
 body{
-    font-family: "roboto", arial, sans-serif;
+    font-family: "Roboto", "arial", sans-serif;
 }
 
 h2{
-    font-family: "Roboto condensed", arial, sans-serif;
+    font-family: "Roboto condensed", "arial", sans-serif;
 }
 *:focus{
     outline: 3px dotted #ff7500;
@@ -30,22 +30,29 @@ h2{
 header ul{
     list-style-type: none;
 }
-.site-nav-list{
-    padding: none;
+.sitenav-list{
     display: flex;
+    padding: none;
+    margin: 0;
     list-style: none;
+    font-weight: bold;
 }
-.site-nav-list :hover{
+.sitenav-list :hover{
     color: #ff7500;
 }
-.site-nav-list :active{
+.sitenav-list :active{
     opacity: 0.6;
 }
-
+.sitenav-item{
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 32px;
+    color: #000000;
+}
 .sitenav-link{
     font-weight: 500;
     font-size: 13px;
-    line-height: 15px;
+    line-height: auto;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
@@ -57,6 +64,7 @@ header ul{
     padding: 12px 24px;
     border-radius: 4px;
     font-size: 13px;
+    font-family: "Roboto","arial", sans-serif;
     line-height: 15px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -229,5 +237,6 @@ header ul{
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
-    color:#252420
+    color:#252420;
+    font-weight: normal;
 }
