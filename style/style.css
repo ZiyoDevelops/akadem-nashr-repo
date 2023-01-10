@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto", "arial", sans-serif;
+    margin: 0;
 }
 
 h2{
@@ -9,10 +10,19 @@ h2{
     outline: 3px dotted #ff7500;
     outline-offset: 3px;
 }
-.site-header{
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.site-header{
     border-top: 5px solid #ff7500;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -82,16 +92,17 @@ header ul{
     opacity: 0.6;
 }
 .hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #252420;
     color: white;
-
 }
+.hero-container{
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .orange-line{
     width: 80px;
     height: 3px;
@@ -113,6 +124,7 @@ header ul{
     letter-spacing: 0.5px;
 }
 .hero-img{
+    box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.6);
     width: 510px;
     height: 510px;
     border-radius:8px;
@@ -122,8 +134,9 @@ header ul{
     padding-top: 210px;
     padding-bottom: 210px;
 }
-.features ul{
+.features-container ul{
     display: flex;
+    align-items: left;
     justify-content: space-between;
     list-style: none;
 }
@@ -154,12 +167,16 @@ header ul{
     color: #000000;
 }
 .sale{
+    content: border-box;
     border-radius: 12px;
+    background-color: #252420;
+    color: white;
+    padding: 64px;
+}
+.sale-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #252420;
-    color: white;
 }
 .sale-content{
     width: 440px;
@@ -176,7 +193,6 @@ header ul{
 }
 
 .sale-img{
-
     width: 440px;
     height: 440px;
     border-radius: 12px;
@@ -228,9 +244,15 @@ header ul{
 
 .site-footer-bottom{
     display: flex;
+    margin-bottom: 16px;
 }
-
-.site-footer-links{
+.site-footer-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.site-footer-links li{
+    margin-bottom: 16px;
     width: 224px;
 }
 .site-footer-links :hover{
@@ -241,8 +263,6 @@ header ul{
     opacity: 0.6;
 }
 .site-footer-links a{
-    font-size: 16px;
-    line-height: 19px;
     text-decoration: none;
     color:#252420;
     font-weight: normal;
