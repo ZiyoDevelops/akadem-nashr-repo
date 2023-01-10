@@ -17,7 +17,9 @@ h2{
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
+.main-logo img{
+    display: block;
+}
 .main-logo :hover{
     opacity: 0.8;
 }
@@ -199,7 +201,7 @@ header ul{
 
 .site-footer-socials{
     display: block;
-    padding: o;
+    padding: 0;
     display: flex;
     justify-content: space-around;
     color:#252420;
