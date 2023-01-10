@@ -198,10 +198,15 @@ header ul{
 }
 
 .site-footer-socials{
+    display: block;
     padding: o;
     display: flex;
     justify-content: space-around;
     color:#252420;
+}
+
+.site-footer-socials li svg{
+    display: block;
 }
 .site-footer-socials a{
     color:#252420;
