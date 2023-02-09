@@ -98,7 +98,6 @@ header ul{
     color: white;
 }
 .hero-container{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,6 +123,7 @@ header ul{
     letter-spacing: 0.5px;
 }
 .hero-img{
+    margin-bottom: -150px;
     box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.6);
     width: 510px;
     height: 510px;
@@ -193,6 +193,7 @@ header ul{
 }
 
 .sale-img{
+    margin-top: -150px;
     width: 440px;
     height: 440px;
     border-radius: 12px;
